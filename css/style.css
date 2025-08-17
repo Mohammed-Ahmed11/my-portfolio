@@ -611,10 +611,10 @@
 
         /* Contact Section */
         .contact-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
+            display: flex;
+            justify-content: center;
             align-items: center;
+            gap: 4rem;
         }
 
         .contact-info h3 {
